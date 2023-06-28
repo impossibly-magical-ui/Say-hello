@@ -1,1 +1,41 @@
-<html><head></head><body><h1>Hello everyone! bye</body></html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Graph Paper</title>
+    <style>
+        body {
+            margin: 0; /* Remove default margin to fill the entire page */
+            height: 100vh; /* Adjust to fill the entire viewport */
+            display: grid; /* Use CSS Grid for the grid layout */
+            grid-template-columns: repeat(auto-fill, minmax(70px, 1fr)); /* Adjust the size of each column */
+            grid-template-rows: repeat(auto-fill, minmax(70px, 1fr)); /* Adjust the size of each row */
+            background-image: url("bg-img.jpg");
+            background-size: cover; /* Adjust background size as needed */
+            background-repeat: no-repeat; /* Prevent image repetition */
+            background-position: center; /* Center the image */
+            opacity: 0.9; /* Adjust the opacity value to your preference */
+
+        }
+
+        .grid-item {
+            border: 0.00000000000001px solid rgb(68, 66, 66); /* Border color for each grid cell */
+        }
+        
+
+
+    
+        .grid-item:hover {
+            transform: scale(1.5); /* Apply a scaling effect on hover */
+        }
+    </style>
+</head>
+<body>
+    <script src="script.js"></script>
+
+      <!-- Plot a point at (3, 2) -->
+      <div class="grid-item" style="grid-column: 3; grid-row: 2;">
+        
+
+    </div>
+</body>
+</html>
